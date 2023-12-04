@@ -9,7 +9,8 @@ public class Main {
     int width = scanner.nextInt();
     System.out.println("Length?");
     int length = scanner.nextInt();
-    System.out.println("Area is " + Utils.areaCalc(width, length));
+    int vastaus = Utils.areaCalc(width, length);
+    System.out.println("Area is " + vastaus);
     scanner.close();
   }
 }
