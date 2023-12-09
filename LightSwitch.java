@@ -1,7 +1,5 @@
-public class LightSwitch extends Interactable {
-  public LightSwitch() {
-    isOn = false;
-  }
+public class LightSwitch implements Interactable {
+  boolean isOn;
 
   public void interact() {
     if (isOn) {

@@ -1,7 +1,5 @@
-public class Door extends Interactable {
-  public Door() {
-    isOn = false;
-  }
+public class Door implements Interactable {
+  boolean isOn;
 
   public void interact() {
     if (isOn) {
