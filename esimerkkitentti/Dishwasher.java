@@ -25,6 +25,7 @@ public class Dishwasher {
   }
 
   // * Methods */
+
   public void setProgramme(int programme) {
     this.programme = programme;
     switch (programme) {
